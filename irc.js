@@ -43,7 +43,7 @@ Client.prototype.connect = function() {
 	});
 
 	self.connection.addListener("data", function(data) {
-		console.log("Data received:" + data);
+		console.log("Data received:\n" + data);
 	})
 };
 
